@@ -1,0 +1,23 @@
+h1 {
+	
+	font-size: 56px;
+	/*background-color: rgb(215,208,233);*/
+}
+html,body {
+font-family:
+/* Safari for OS X and iOS */
+-apple-system,
+/* Chrome >= 56 for OS X , Windows, Linux and Android */
+system-ui,
+/* Chrome < 56 for OS X */
+BlinkMacSystemFont,
+/* Windows */
+"Segoe UI",
+/* Android */
+"Roboto",
+/* Basic web fallback */
+"Helvetica Neue", Arial, sans-serif;
+} 
+body {
+	background: #000 url("https://i.ytimg.com/vi/mm_M7TE2qJ0/maxresdefault.jpg") no-repeat fixed center;
+}
