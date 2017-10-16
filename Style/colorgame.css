@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+#img1 {
+  background-color: white;
+  border: 0.1rem solid;
+  border-radius: 1rem;
+  width: 30%;
+  padding-top: 30%;
+  margin-left: 2%;
+}
+
+#img2 {
+  background-color: white;
+  border: 0.1rem solid;
+  border-radius: 1rem;
+  width: 30%;
+  padding-top: 30%;
+  margin-left: 2%;
+}
+
+#img3 {
+  background-color: white;
+  border: 0.1rem solid;
+  border-radius: 1rem;
+  width: 30%;
+  padding-top: 30%;
+  margin-left: 2%;
+}
