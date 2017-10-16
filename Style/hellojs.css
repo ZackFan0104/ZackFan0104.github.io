@@ -1,0 +1,16 @@
+table {
+  border: 0.1rem solid ;
+  border-collapse: collapse
+}
+
+thead {
+  background-color: #6E6EFF;
+}
+
+td {
+  border: 0.1rem solid ;
+}
+
+.row-over {
+  background-color: #FFC863;
+}
