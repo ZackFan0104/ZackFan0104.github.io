@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-color: #212121;
 }
@@ -16,7 +17,6 @@ h2 {
 }
 
 #img1 {
-  background-color: white;
   border: 0.1rem solid;
   border-radius: 1rem;
   width: 30%;
@@ -25,7 +25,6 @@ h2 {
 }
 
 #img2 {
-  background-color: white;
   border: 0.1rem solid;
   border-radius: 1rem;
   width: 30%;
@@ -34,7 +33,6 @@ h2 {
 }
 
 #img3 {
-  background-color: white;
   border: 0.1rem solid;
   border-radius: 1rem;
   width: 30%;
