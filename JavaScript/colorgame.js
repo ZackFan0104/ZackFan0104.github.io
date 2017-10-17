@@ -26,28 +26,80 @@ var img = 'img' + num;
 var img1 = document.getElementById(img);
 img1.style.backgroundColor = rgb1;
 
+var h2 = document.querySelector('h2');
+var body = document.querySelector('body');
+var span = document.querySelector('span');
+
 switch (6-num) {
   case 3:
     var img2 = document.getElementById('img1');
     img2.style.backgroundColor = rgb2;
     var img3 = document.getElementById('img2');
     img3.style.backgroundColor = rgb3;
+    img1.onclick = function(){
+      h2.textContent = 'CORRECT!';
+      body.style.backgroundColor = rgb1;
+      img1.style.backgroundColor = 'white';
+      img2.style.backgroundColor = 'white';
+      img3.style.backgroundColor = 'white';
+      span.textContent = 'Play Again';
+    }
+    img2.onclick = function(){
+      h2.textContent = 'TRY AGAIN!';
+      img2.style.backgroundColor = '#212121';
+    }
+    img3.onclick = function(){
+      h2.textContent = 'TRY AGAIN!';
+      img3.style.backgroundColor = '#212121';
+    }
     break;
   case 4:
     var img2 = document.getElementById('img1');
     img2.style.backgroundColor = rgb2;
     var img3 = document.getElementById('img3');
     img3.style.backgroundColor = rgb3;
+    img1.onclick = function(){
+      h2.textContent = 'CORRECT!';
+      body.style.backgroundColor = rgb1;
+      img1.style.backgroundColor = 'white';
+      img2.style.backgroundColor = 'white';
+      img3.style.backgroundColor = 'white';
+      span.textContent = 'Play Again';
+    }
+    img2.onclick = function(){
+      h2.textContent = 'TRY AGAIN!';
+      img2.style.backgroundColor = '#212121';
+    }
+    img3.onclick = function(){
+      h2.textContent = 'TRY AGAIN!';
+      img3.style.backgroundColor = '#212121';
+    }
     break;
   case 5:
     var img2 = document.getElementById('img2');
     img2.style.backgroundColor = rgb2;
     var img3 = document.getElementById('img3');
     img3.style.backgroundColor = rgb3;
+    img1.onclick = function(){
+      h2.textContent = 'CORRECT!';
+      body.style.backgroundColor = rgb1;
+      img1.style.backgroundColor = 'white';
+      img2.style.backgroundColor = 'white';
+      img3.style.backgroundColor = 'white';
+      span.textContent = 'Play Again';
+    }
+    img2.onclick = function(){
+      h2.textContent = 'TRY AGAIN!';
+      img2.style.backgroundColor = '#212121';
+    }
+    img3.onclick = function(){
+      h2.textContent = 'TRY AGAIN!';
+      img3.style.backgroundColor = '#212121';
+    }
     break;
 }
 
 var refresh = document.querySelector('button');
-fresh.onclick = function(){
-
+refresh.onclick = function(){
+  window.location.reload(true);
 }
