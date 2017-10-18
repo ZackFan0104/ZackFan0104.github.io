@@ -3,7 +3,6 @@ window.onload = function(){
 
 }
 var rgb1,rgb2,rgb3;
-var success ;
 var refresh = document.querySelector('button');
 var subTitle = document.querySelector('h2');
 var content = document.querySelector('body');
@@ -67,10 +66,15 @@ function checkStatus (){
       subTitle.textContent = 'CORRECT!';
       content.style.backgroundColor = rgb1;
       img1.style.backgroundColor = 'white';
-      img2.style.backgroundColor = 'white';
       img3.style.backgroundColor = 'white';
+      img2.style.backgroundColor = 'white';
       footer.textContent = 'Play Again';
+<<<<<<< HEAD
     
+=======
+      img2.style.pointerEvents = 'none';
+      img3.style.pointerEvents = 'none';
+>>>>>>> 164a62919635c581f924cdc88cb13a5e4ac08e1a
     }
     img2.onclick = function(){
       subTitle.textContent = 'TRY AGAIN!';
