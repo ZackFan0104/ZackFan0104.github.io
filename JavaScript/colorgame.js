@@ -70,6 +70,7 @@ function checkStatus (){
       img2.style.backgroundColor = 'white';
       img3.style.backgroundColor = 'white';
       footer.textContent = 'Play Again';
+    
     }
     img2.onclick = function(){
       subTitle.textContent = 'TRY AGAIN!';
