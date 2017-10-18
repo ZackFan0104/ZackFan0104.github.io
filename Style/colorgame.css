@@ -19,6 +19,11 @@ h2 {
   text-align: center;
 }
 
+.color {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
 img {
   border-radius: 1rem;
   max-width: 50rem;
@@ -31,7 +36,7 @@ img {
 
 }
 
-div {
+.footer {
   text-align: center;
   margin-top: 1rem;
 }
