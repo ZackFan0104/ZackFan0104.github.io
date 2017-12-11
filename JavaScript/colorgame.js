@@ -7,7 +7,7 @@ var refresh = document.querySelector('button');
 var subTitle = document.querySelector('h2');
 var content = document.querySelector('body');
 var footer = document.querySelector('span');
-
+ 
 
 function getRandomArbitrary(min, max){
   return Math.floor(Math.random() * ( max - min ) + min); //interger number between 0~255
